@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainNavGraph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.maskulka.zadanieo2.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/navigateToActivationFragment"
+            app:destination="@id/activationFragment" />
+
+        <action
+            android:id="@+id/navigateToScratchFragment"
+            app:destination="@id/scratchFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/activationFragment"
+        android:name="com.maskulka.zadanieo2.ui.activation.ActivationFragment"
+        android:label="fragment_activation"
+        tools:layout="@layout/fragment_activation" />
+
+    <fragment
+        android:id="@+id/scratchFragment"
+        android:name="com.maskulka.zadanieo2.ui.scratch.ScratchFragment"
+        android:label="fragment_scratch"
+        tools:layout="@layout/fragment_scratch" />
+
+</navigation>

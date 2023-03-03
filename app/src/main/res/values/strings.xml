@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ZadanieO2</string>
+
+    <string name="scratch">Scratch</string>
+    <string name="activate">Activate</string>
+    <string name="reset">Reset</string>
+    <string name="retry">Retry</string>
+
+    <string name="card_scratching_in_progress">Card scratching in progress</string>
+    <string name="card_activation_in_progress">Card activation in progress</string>
+    <string name="card_activation_success">Card was successfully activated</string>
+    <string name="card_activation_error_title">Card activation error</string>
+    <string name="card_activation_error_desc">Activation response code: %d</string>
+
+    <string name="current_state">Current card state:</string>
+    <string name="state_new">New</string>
+    <string name="state_scratched">Scratched</string>
+    <string name="state_activated">Activated</string>
+
+</resources>
