@@ -6,7 +6,6 @@ plugins {
     id("kotlin-kapt")
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
-//    id("com.google.devtools.ksp") version "1.8.0-1.0.8"
 }
 
 android {
@@ -40,7 +39,6 @@ android {
         jvmTarget = "11"
     }
     testOptions {
-        // Used for Unit testing Android dependent elements in /test folder
         unitTests.isIncludeAndroidResources = true
         unitTests.isReturnDefaultValues = true
     }
